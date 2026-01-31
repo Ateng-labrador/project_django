@@ -3,7 +3,7 @@ from django.shortcuts import render
 def index(request):
     context = {
         'judul' : 'Kelas Terbuka',
-        'subjudul' : 'ini home',
+        'subjudul' : 'Selamat datang',
         'banner' : 'img/banner_home.png',
         
     }
