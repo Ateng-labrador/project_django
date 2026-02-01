@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block app_css %}
+  <link rel="stylesheet" type="text/css"
+  href="{% static "blog/css/style.css" %}">
+{% endblock app_css %}
+
+{% block header %}
+<h1>{{judul}}</h1>
+<p>{{subjudul}}</p>
+{% endblock header %}
+
