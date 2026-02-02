@@ -1,0 +1,16 @@
+.jumbotron{
+    background-image: url("../img/banner_about.png");
+    background-position: 45% 55%;
+    background-size: cover;
+    height: 450px;
+}
+
+#myNav {
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+#myNav.scrolled {
+    background-color: rgba(33, 37, 41, 0.95) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+}

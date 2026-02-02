@@ -29,4 +29,5 @@ STATICFILES_DIRS = [
 ```
 
 - file static untuk menyimpan css, js, img
+- file template berisi template index.html
 
